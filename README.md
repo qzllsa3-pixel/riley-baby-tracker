@@ -1,4 +1,4 @@
-# riley-baby-tracker
+# Riley-baby-tracker
 Hi👋🏽 this is my first project, a baby tracker using HTML & CSS.
 -----
 ![Screenshot 2025-11-28 at 23 23 04](https://github.com/user-attachments/assets/50c3aab3-134b-4a69-affa-e2dcab849287)
