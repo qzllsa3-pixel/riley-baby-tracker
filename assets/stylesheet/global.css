@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 100%;
+background-color: rgba(250, 245, 242);
+.sticky{
+ display: flex;
+ justify-content: end;
+ padding-bottom: 10px;
+ padding-right: 20px;
+ position: sticky;
+z-index: 1000;
+bottom: 0;
+   .stick{
+    display: flex;
+    >div{
+  >img{
+width: 150px;
+height: auto;
+border-radius: 100px;
+        }
+}
+    
+      >nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+        >ul{
+             gap: 20px;
+             display: flex;
+             flex-direction: column;
+             padding-left: 10px;
+            >li{
+                >a{
+                    >img{
+                        width: 20px;
+                        height: 20px;
+
+                    }
+                }
+            }
+        }
+      }
+    }
+
+   }
+}
+
+
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+    &:visited {
+        color: inherit;
+    }
+}
+
+.row {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@font-face {
+    font-family: inter;
+    src: url(../fonts/inter.ttf);
+}
+@font-face {
+    font-family: recoleta;
+    src: url(../fonts/recoleta.otf);
+}
